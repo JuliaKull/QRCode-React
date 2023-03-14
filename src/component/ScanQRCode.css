@@ -1,0 +1,47 @@
+.dropzone {
+    margin-top: 20px;
+    padding: 20px;
+    border: 2px dashed #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .dropzone p {
+    margin-top: 10px;
+  }
+  
+  .dropzone:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .dropzone.active {
+    background-color: #e0e0e0;
+  }
+
+  .decoded-info {
+    margin-top: 2rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .decoded-info h2 {
+    margin-top: 0;
+  }
+  
+  .decoded-info ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .decoded-info li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .decoded-info li:before {
+    content: "•";
+    margin-right: 0.5rem;
+  }
